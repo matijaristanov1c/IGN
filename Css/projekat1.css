@@ -1,0 +1,459 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,300;1,300&family=Rubik:wght@300&display=swap%27');
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Mulish', sans-serif;
+    font-family: 'Rubik', sans-serif; 
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,300;1,300&family=Rubik:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap%27');
+
+
+.container{
+    width: 100%;
+    margin: 0px auto;
+    
+}
+.header{
+    height: 100px;
+    background-color:white;
+    display: flex;
+    width: 100%;
+    border-top: solid #d1d5db thin;
+    border-bottom: solid #d1d5db thin;
+}
+.logo{
+    width: 50%;
+    height: 100px;
+    margin-left: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo img{
+    width: 50%;
+}
+
+
+
+.Adria {
+    font-size: 25px;
+    font-family: 'proxima-nova', sans-serif;
+    font-weight: bold;
+    letter-spacing:0.6px;
+    
+    
+}
+
+.uloguj_se {
+    padding: 10px;
+    background-color: #BF1313;
+    color:white;
+    font-size:22px;
+    border-radius:10px;
+    font-weight: bold;
+    font-family: 'Rubik', sans-serif;
+}
+
+.logolink{
+    margin-left: 10px;
+    padding: 0px;
+}
+.navigacioni_meni{
+    width: 100%;
+    height: 100px;
+    margin-left: 5%;
+    margin-top: 10px;
+}
+.navigacioni_meni ul{
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+}
+.navigacioni_meni ul li{
+    padding: 2%;
+    align-items: center;
+}
+.navigacioni_meni ul li a{
+    text-decoration: none;
+    align-items: center;
+    color: black;
+    font-size: 20px;
+}
+.centralni{
+    width: 100%;
+    height: 100%;
+    margin-right: 0%;
+    margin-left: 0%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.veliki{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly; 
+    margin-top: 5%;
+    margin: 5%;
+}
+.prvi img{
+    width: 100%;
+}
+.drugi img{
+    width: 100%;
+}
+.text-in-image{
+    margin-bottom: 20%;
+    
+}
+.prvi{
+    width: 20%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+.Ne_propustite{
+    display: flex;
+    width: 22%;
+    justify-content: flex-end;
+    margin-top: 3%;
+    font-style: bold;
+}
+.velikidva{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5%;
+    background-color: #f5f5f5;
+    font-style: bold;
+    margin: 1%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.drugi{
+    width: 20%;
+}
+.drugi1{
+    width: 23%;
+}
+.drugi12{
+    width: 30%;
+}
+.drugi13{
+    width: 30%;
+}
+.za_sliku1 img{
+    width: 120%;
+    height: 20vh;
+}
+
+a {
+    text-decoration:none;
+}
+.dveslike{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #f5f5f5;
+    margin-right: 6%;
+}
+
+.IGN{
+    font-weight: bold;
+    font-size: xx-large;
+}
+.drugi.za_tekst{
+    width: 30%;
+}
+.najnovije_igrice{
+    display: flex;
+    width: 80%;
+    margin:2% auto;
+    border-bottom: 2px solid grey;
+}
+.najnovije_slike{
+    width: 18%;
+}
+.najnovije_slike img{
+    width: 100%;
+}
+.najnoviji_tekst{
+    width: 60%;
+    display: flex;
+    padding: 3%;
+    
+}
+.velikitri{
+    width: 100%;
+    border-top: 2px solid grey;
+}
+.Najnovije_vesti{
+    display: flex;
+    width: 22%;
+    justify-content: flex-end;
+    margin-top: 3%;
+    font-style: bold;
+}
+.tekst{
+    padding:1% 4%;
+    background-color: rgba(30,51,75,5);
+    color: white;
+    opacity: 0.7;
+    font-size: 19px;
+    font-weight: bolder;font-family: 'Montserrat', sans-serif !important;
+}
+.velikicetri{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly; 
+    margin-top: 5%;
+    margin: 5%;
+}
+.treci{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+}
+.txt{
+    padding:1% 4%;
+    background-color: rgba(30,51,75,5);
+    color: white;
+    margin-top: 2%;
+}
+.treci img{
+    width: 100%;
+}
+.zanimljivosti{
+    display: flex;
+    width: 22%;
+    justify-content: flex-end;
+    margin-top: 3%;
+    font-style: bold;
+}
+.velikipet{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5%;
+    background-color: #f5f5f5;
+    font-style: bold;
+    margin: 1%;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+.peti{
+    width: 20%;
+}
+.peti.text{
+    width: 30%;
+}
+.peti img{
+    width: 100%;
+}
+.velikisest{
+    width: 100%;
+}
+.nove_igrice{
+    display: flex;
+    width: 80%;
+    margin:2% auto;
+    border-bottom: 2px solid grey;
+}
+.nove_slike{
+    width: 18%;
+}
+.nove_slike img{
+    width: 100%;
+}
+.novi_tekst{
+    width: 60%;
+    display: flex;
+    padding: 3%;
+}
+#Prvi{
+    display: flex;
+    flex-wrap: wrap;
+}
+.prvi_1, .prvi_2, .prvi_3, .prvi_4, .prvi_5,.prvi_6,.prvi_7,.prvi_8,.prvi_9,.prvi_10,.prvi_11,.prvi_12,.prvi_13,.prvi_14,.prvi_15,.prvi_16,.prvi_17,.prvi_18,.prvi_19,.prvi_20,.prvi_21,.prvi_22,.prvi_23,.prvi_24,.prvi_25,.prvi_26,.prvi_27,.prvi_28{
+    width: 20%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+}
+.prvi_1{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background-image: url("../Images/kayle.jpg");
+}
+.prvi_2{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background-image: url("../Images/Galaxy.webp");
+}
+.prvi_3{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background-image: url("../Images/majmun.webp");
+}
+.prvi_4{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background-image: url("../Images/Predator.webp");
+}
+.prvi_5{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background-image: url("../Images/42.webp");
+}
+.prvi_6{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background-image: url("../Images/olaf.webp");
+}
+.prvi_7{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background-image: url("../Images/Predator.webp");
+}
+.prvi_8{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background-image: url("../Images/film.webp");
+}
+.prvi_9{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background-image: url("../Images/9.webp");
+}
+.prvi_10{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background-image: url("../Images/12.webp");
+}
+.prvi_11{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background-image: url("../Images/Predator.webp");
+}
+.prvi_12{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background-image: url("../Images/11.webp");
+}
+.prvi_13{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background-image: url("../Images/pablo.webp");
+}
+.prvi_14{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background-image: url("../Images/gang.webp");
+}
+.prvi_15{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background-image: url("../Images/ez.webp");
+}
+.prvi_16{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background-image: url("../Images/film.webp");
+}
+.prvi_17{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background-image: url("../Images/10.webp");
+}
+.prvi_18{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background-image: url("../Images/urgot.webp");
+}
+.prvi_19{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background-image: url("../Images/lux.webp");
+}
+.prvi_20{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background-image: url("../Images/12.webp");
+}
+.prvi_21{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background-image: url("../Images/27.webp");
+}
+.prvi_22{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background-image: url("../Images/29.webp");
+}
+.prvi_23{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background-image: url("../Images/31.webp");
+}
+.prvi_24{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background-image: url("../Images/32.webp");
+}
+.prvi_25{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background-image: url("../Images/39.webp");
+}
+.prvi_26{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background-image: url("../Images/40.webp");
+}
+.prvi_27{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background-image: url("../Images/cait.webp");
+}
+.prvi_28{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background-image: url("../Images/10.webp");
+}
+
+
+
